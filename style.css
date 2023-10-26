@@ -1,0 +1,225 @@
+*{margin: 0;
+padding: 0;
+/* background-color:red; */
+}
+
+body{
+  
+}
+
+.arrow{
+    transform: rotate(90deg);
+}
+
+
+.navbar{
+    position: fixed;
+}
+.parent{
+    
+
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #6F6AF7;
+    padding:1% 2%;
+
+    
+
+
+
+}
+.navbar{
+    position:sticky;
+    top:0;
+}
+
+
+.right{
+    padding-right: 10%;
+    display:flex;
+    font-size: 22px;
+
+}
+
+.nav-item{
+
+    list-style-type: none;
+    color: #fff;
+    padding:0 3%;    
+}
+
+.nav-brand{
+    height: 35px;
+    width: 110px;
+    padding-left: 60px;
+}
+
+.nav-img{
+    height: 30px;
+    width: 70px;
+}
+.search-bar{
+    padding-right: 2%;
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+}
+
+main{
+    padding: 6% 10% 0 10%;
+}
+
+.img-4{
+    height: 330px;
+    width: 270px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea-1{
+background-color: #E5D8FF;
+border-radius:25px ;
+}
+
+.cards-section{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+    /* text-align: left; */
+    color: #fff;
+    
+}
+.first-button{
+    background-color: #929DFF;
+   
+}
+
+.second-button{
+    background-color:#734CF2;
+}
+
+.third-button{
+    background-color:#D288FF;
+}
+
+.fourth-button{
+    background-color:#000000
+    ;
+}
+
+.details{
+    background-color: #483EFF;
+    display: flex;
+    margin: 7% 0%;
+    padding: 5%;
+    border-radius: 10px;
+
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.options button{
+    height: 100px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10% 0;
+    
+}
+
+.view{
+    padding-left: 6%;
+    width: 800px;
+
+}
+
+.content{
+    background-color: #fff;
+   padding: 7% 0 0% 10%;
+   height: 400px;
+   border-radius: 15px;
+}
+
+p{
+    padding: 2%;
+}
+
+.info{
+    font-weight: bolder;
+}
+
+
+.help{
+    height: 40px;
+    width: 40px;
+    float:right;
+    position: fixed;
+    bottom: 0;
+    padding: 7px;
+    right: 70px;
+    bottom: 60px;
+}
+
+.social{
+    position: sticky;
+    top: 80px;
+    margin-top:5vh;
+    float: right;
+}
+
+
+.social img{
+   
+        height: 40px;
+        display: block;
+        width: fit-content;
+    
+}
+
+.your-info{
+    background-color: #BCE0F6;
+    font-size: 20px;
+    color: black;
+}
+
+.bookmark, .setting{
+background-color: #483EFF;
+border: #fff solid 3px;
+font-size: 20px;
+color: #fff;
+}
+
+.next-button{
+    background-color: black;
+    /* display:flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    
+    right: 30px;
+    bottom: 0px;
+}
+
+.next-button img{
+    width: 20px;
+    margin:0 50px ;
+
+}
